@@ -9,8 +9,8 @@
 - A 3x3 matrix multiplication is composed of 9 inner products:
 
 - Computation of AxB: </t></t> <strong>  Cij = Sigma(Aik * Bkj)</strong>
-<pre><code>
-|a00 a01 a02|   |b00 b01 b02|   |c00 c01 c02|
+
+<pre><code>|a00 a01 a02|   |b00 b01 b02|   |c00 c01 c02|
 |a10 a11 a12| x |b10 b11 b12| = |c10 c11 c12|
 |a20 a21 a22|   |b20 b21 b22|   |c20 c21 c22|</code></pre>
 
