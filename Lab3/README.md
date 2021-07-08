@@ -1,32 +1,38 @@
-# Lab2 Tasks
+# Lab3 Tasks
 
-## In this lab, you will design a circuit to do a 3x3 matrix multiplication on Vivado Simulator.
-- Two register arrays with of 3x3 matrices will be given to you in the sample Verilog simulation project.
-- You must design a Verilog program to compute their multiplication, and print the result from the testbench.
-- You must use no more than 9 multipliers to implement your circuit
-<br/><br/>
+## In this lab, you will use the FPGA development board “Arty” to implement a simple I/O control circuit
 
-- A 3x3 matrix multiplication is composed of 9 inner products:
+👉 Your circuit should have a 4-bit counter register
+- The counter value is set to zero upon reset
+- he counter value is a signed value in 2’complement format n The 4 LEDs display the 4 counter bits at all time
+<br/>
+👉 Push-buttons #0 and #1 are used to decrease/increase the counter value: 
 
-- Computation of AxB: </t></t> <strong>  Cij = Sigma(Aik * Bkj)</strong>
+- Push the BTN1/BTN0 increases/decreases the counter by 1
+- If the counter value becomes grater than 7, it is truncated to 7;
+- If the value is smaller than –8, it is set to –8
+<br/>
+👉 Push-buttons #2 and #3 are used to control the brightness of the LEDs
 
-<pre><code>|a00 a01 a02|   |b00 b01 b02|   |c00 c01 c02|
-|a10 a11 a12| x |b10 b11 b12| = |c10 c11 c12|
-|a20 a21 a22|   |b20 b21 b22|   |c20 c21 c22|</code></pre>
+- BTN3 makes the LED brighter and BTN2 makes it darker
 
 
+## In reality, however, the signal value oscillates between 0 and 1 several times before it stabilizes. This is called the bouncing behavior of a hardware button.
+- We may set a timer to wait out the bouncing period
 
+## The LED device in the Arty board can only be fully lit (full power) or turned off (zero power).
+- To trick your eyes to see different levels of brightness, you can send a PWM signal to its power input
+- A PWM input to the LED turns it on-an-off quickly
+- The persistence of human visions will not see flickering but only different levels of brightness, as long as your PWM frequency is high enough
 
 
 ## Module Specification
-<pre><code>module mmult(
-  input  clk,
-  input  reset_n,
-  input  enable,
-  input  [0:9*8-1] A_mat,
-  input  [0:9*8-1] B_mat,
-  output valid,
-
-  output reg [0:9*17-1] C_mat 
+<pre><code>module lab3(
+  input  clk,            // System clock at 100 MHz
+  input  reset_n,        // System negative reset signal
+  input  [3:0] usr_btn,  // Four user pushbuttons
+  output [3:0] usr_led   // Four yellow LEDs
 );
+assign usr_led = usr_btn;
+endmodule
 </code></pre>
