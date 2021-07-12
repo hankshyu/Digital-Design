@@ -33,6 +33,5 @@
   input  [3:0] usr_btn,  // Four user pushbuttons
   output [3:0] usr_led   // Four yellow LEDs
 );
-assign usr_led = usr_btn;
-endmodule
+
 </code></pre>
