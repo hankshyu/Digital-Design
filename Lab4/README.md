@@ -75,5 +75,5 @@
   output is_receiving,    // Low when receive line is idle.
   output is_transmitting, // Low when transmit line is idle.
   output recv_error       // Indicates error in receiving packet.
-            );     
+  );     
             </code></pre>
