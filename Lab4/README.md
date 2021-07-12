@@ -47,8 +47,7 @@
   output [3:0] usr_led,
   input uart_rx,
   output uart_tx
-  );
-</code></pre>
+  );</code></pre>
 ### Sub-module: gcd_calculator
 <pre><code>module gcd_calculator(
   input clk,
@@ -58,8 +57,7 @@
   input [15:0] B,
   output [15:0] answer,
   output answer_available
-  );
-</code></pre>
+  );</code></pre>
 ### Sub-module: uart
 
 
@@ -75,5 +73,4 @@
   output is_receiving,    // Low when receive line is idle.
   output is_transmitting, // Low when transmit line is idle.
   output recv_error       // Indicates error in receiving packet.
-  );     
-            </code></pre>
+  );</code></pre>
