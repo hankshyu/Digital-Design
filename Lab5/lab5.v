@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: Dept. of CS, National Chiao Tung University
-// Engineer: Chun-Jen Tsai
+// Engineer: Chun-Jen Tsai, hankshyu
 //
 // Create Date: 2017/10/16 14:21:33
 // Design Name:
