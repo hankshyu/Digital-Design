@@ -12,6 +12,7 @@
 <pre><code>#define LIMIT 1024
 unsigned char primes[LIMIT];
 memset((void *) primes, 1, sizeof(primes));
+
 /* sieve algorithm */
 for (idx = 2; idx < LIMIT; idx++)
 {
