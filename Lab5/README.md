@@ -36,12 +36,13 @@ for (idx = 2; idx < LIMIT; idx++)
 
 ## Module Specification
 ### Top module: lab4
-<pre><code>module lab4(
-  input clk,
-  input reset_n,
-  input [3:0] usr_btn,
-  output [3:0] usr_led,
-  input uart_rx,
-  output uart_tx
-  );</code></pre>
+<pre><code>module lab5(input clk,
+    input reset_n,
+    input [3:0] usr_btn,
+    output [3:0] usr_led,
+    output LCD_RS,
+    output LCD_RW,
+    output LCD_E,
+    output [3:0] LCD_D
+    );</code></pre>
 
