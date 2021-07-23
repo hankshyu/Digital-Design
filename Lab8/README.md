@@ -18,7 +18,6 @@
 <pre><code>reg [0:127] passwd_hash = 128’hE9982EC5CA981BD365603623CF4B2277;</code></pre>
 - Once the user press BTN3, your circuit will crack the password and show it on the LCD module
 
-n Note: it takes an Intel i7-4770 PC 10 seconds to crack it!
 
 ## Module Specification
 ### Top module: lab4
