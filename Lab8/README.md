@@ -43,7 +43,7 @@ Single decode core on Arty| 21048
 5 decode cores on Arty| 6699
 10 decode cores on Arty| 939
 25 decode cores on Arty| 0.35
-25 decode cores on Arty| ~0.35
+25 decode cores on Arty| 0.35
 
 
 
