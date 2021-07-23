@@ -1,6 +1,6 @@
 # Lab8 Tasks
 
-## In this lab, you will design a circuit to guess an 8-digit password scrambled with the MD5 hashing algorithm
+## In this lab, you will design a circuit to guess an 8-digit password scrambled with the MD5 Message-Digest Algorithm
 - The password is composed of eight decimal digits coded in ASCII codes
 - he MD5 hash code of the password will be given to you
 - Your circuit must crack it, and display the original password and the time it takes for you to crack the password on the LCD module
