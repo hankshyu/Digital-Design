@@ -36,7 +36,7 @@ for (idx = 2; idx < LIMIT; idx++)
 - Roughly every 0.7 sec, the LCD scrolls up one number cyclically - If BTN3 is pressed, the scrolling direction will be reversed (scroll-up becomes scroll-down, and vice versa)
 
 ## Module Specification
-### Top module: lab4
+### Top module: lab5
 <pre><code>module lab5(input clk,
   input reset_n,
   input [3:0] usr_btn,
