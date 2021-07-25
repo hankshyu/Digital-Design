@@ -12,7 +12,7 @@
 - [Memo about MD5 from IETF](https://www.ietf.org/rfc/rfc1321.txt)
 
 
-## What to Do in Lab 5
+## What to Do in Lab8
 - You must rewrite the md5 function and the cracker code using Verilog and implement it on the Arty board
 - In your circuit, the password hash code should be declared as follows:
 <pre><code>reg [0:127] passwd_hash = 128’hE9982EC5CA981BD365603623CF4B2277;</code></pre>
@@ -20,7 +20,7 @@
 
 
 ## Module Specification
-### Top module: lab4
+### Top module: lab8
 <pre><code>module lab8(
   input clk,
   input reset_n,
