@@ -1,26 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: Dept. of Computer Science, National Chiao Tung University
-// Engineer: Chun-Jen Tsai
-//
-// Create Date: 2017/12/06 20:44:08
-// Design Name:
-// Module Name: lab9
-// Project Name:
-// Target Devices:
-// Tool Versions:
-// Description: This is a sample circuit to show you how to initialize an SRAM
-//              with a pre-defined data file. Hit BTN0/BTN1 let you browse
-//              through the data.
-//
-// Dependencies: LCD_module, debounce
-//
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-//
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module lab9(input clk,
             input reset_n,
