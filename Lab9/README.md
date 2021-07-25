@@ -8,17 +8,18 @@
 1. Mathematically, a correlation filter is the sliding inner product between two signals f(x) and g(x):
 - cross-correlation function Cfg[×] between f[×] and g[×] is defined as:
 <img src="https://github.com/hankshyu/Digital_Design/blob/main/Lab9/pictures/Screen%20Shot%202021-07-25%20at%208.26.44%20PM.png" alt="correlation formula" width="500" />
+
 - a digital version of the correlation filter is:
-<img src="https://github.com/hankshyu/Digital_Design/blob/main/Lab9/pictures/Screen%20Shot%202021-07-25%20at%208.26.44%20PM.png" alt="correlation formula" width="500" />
+<img src="https://github.com/hankshyu/Digital_Design/blob/main/Lab9/pictures/Screen%20Shot%202021-07-25%20at%208.26.55%20PM.png" alt="correlation formula" width="500" />
 
 
 
 3. If f(x) and g(x) are the same signal, it is called auto-correlation
 
-- The distances between the peaks of the auto-correlation function of a noisy periodic signals can be used to estimate the period of the signal
+- the distances between the peaks of the auto-correlation function of a noisy periodic signals can be used to estimate the period of the signal
 3. If f(x) and g(x) are different signals, it is called cross-correlation
 
-- The maximal location of the cross-correlation function between g(x) and f(x) means that a signal most similar to g(x) is located at x0 of f(x)
+- the maximal location of the cross-correlation function between g(x) and f(x) means that a signal most similar to g(x) is located at x0 of f(x)
 4. C Model of Correlation:
 <pre><code>char f[1024] = { ... };
 char g[64] = { ... };
