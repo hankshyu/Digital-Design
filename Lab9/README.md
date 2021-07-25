@@ -6,7 +6,10 @@
 
 ## Correlation filter
 1. Mathematically, a correlation filter is the sliding inner product between two signals f(x) and g(x):
-![image]()
+- cross-correlation function Cfg[×] between f[×] and g[×] is defined as:
+<img src="https://github.com/hankshyu/Digital_Design/blob/main/Lab9/pictures/Screen%20Shot%202021-07-25%20at%208.26.44%20PM.png" alt="correlation formula" width="500" />
+- a digital version of the correlation filter is:
+<img src="https://github.com/hankshyu/Digital_Design/blob/main/Lab9/pictures/Screen%20Shot%202021-07-25%20at%208.26.44%20PM.png" alt="correlation formula" width="500" />
 
 
 
