@@ -6,7 +6,11 @@
 
 ## Correlation filter
 1. Mathematically, a correlation filter is the sliding inner product between two signals f(x) and g(x):
-2. If f(x) and g(x) are the same signal, it is called auto-correlation
+![image]()
+
+
+
+3. If f(x) and g(x) are the same signal, it is called auto-correlation
 
 - The distances between the peaks of the auto-correlation function of a noisy periodic signals can be used to estimate the period of the signal
 3. If f(x) and g(x) are different signals, it is called cross-correlation
