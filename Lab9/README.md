@@ -38,7 +38,7 @@ for (x = 0; x < 1024 - 64; x++)
 
 ## Module Specification
 ### Top module: lab8
-<pre><code>module lab8(
+<pre><code>module lab9(
   input clk,
   input reset_n,
   input [3:0] usr_btn,
