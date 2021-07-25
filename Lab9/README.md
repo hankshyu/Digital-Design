@@ -45,7 +45,7 @@ for (x = 0; x < 1024 - 64; x++)
 
 
 ## Module Specification
-### Top module: lab8
+### Top module: lab9
 <pre><code>module lab9(
   input clk,
   input reset_n,
