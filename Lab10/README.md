@@ -1,4 +1,4 @@
-# Lab5 Tasks
+# Lab10 Tasks
 
 ## In this lab, you will implement a circuit that shows some graphics using the VGA video interface, your circuit must do the following things:
 - Animates the moon to move across the picture with green- screen removal
@@ -35,14 +35,16 @@
 - Secondly, you must use your imaginations to createsome fireworks animations in the sky area
 
 ## Module Specification
-### Top module: lab5
-<pre><code>module lab5(input clk,
+### Top module: lab10
+<pre><code>module lab10(
+  input clk,
   input reset_n,
   input [3:0] usr_btn,
   output [3:0] usr_led,
-  output LCD_RS,
-  output LCD_RW,
-  output LCD_E,
-  output [3:0] LCD_D
-  );</code></pre>
+  output VGA_HSYNC,
+  output VGA_VSYNC,
+  output [3:0] VGA_RED,
+  output [3:0] VGA_GREEN,
+  output [3:0] VGA_BLUE
+);</code></pre>
 
