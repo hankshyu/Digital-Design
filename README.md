@@ -35,5 +35,6 @@ Circuit implementations on the Artix-7 FPGA Development Board
 
 
 
-[l1]: 
+[l1]: https://github.com/hankshyu/Digital_Design
+
 
