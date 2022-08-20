@@ -40,7 +40,7 @@ Circuit implementations on the Artix-7 FPGA Development Board
 
 
 
-[l1]: https://github.com/hankshyu/Digital_Design/tree/main/Lab1
+[l1]: https://github.com/hankshyu/Digital_Design/tree/main/Lab01
 [l2]: https://github.com/hankshyu/Digital_Design/tree/main/Lab2
 [l3]: https://github.com/hankshyu/Digital_Design/tree/main/Lab3
 [l4]: https://github.com/hankshyu/Digital_Design/tree/main/Lab4
