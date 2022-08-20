@@ -41,13 +41,13 @@ Circuit implementations on the Artix-7 FPGA Development Board
 
 
 [l1]: Lab_01
-[l2]: ./Lab_02
-[l3]: https://github.com/hankshyu/Digital_Design/tree/main/Lab3
-[l4]: https://github.com/hankshyu/Digital_Design/tree/main/Lab4
-[l5]: https://github.com/hankshyu/Digital_Design/tree/main/Lab5
-[l7]: https://github.com/hankshyu/Digital_Design/tree/main/Lab7
-[l8]: https://github.com/hankshyu/Digital_Design/tree/main/Lab8
-[l9]: https://github.com/hankshyu/Digital_Design/tree/main/Lab9
-[l10]: https://github.com/hankshyu/Digital_Design/tree/main/Lab10
+[l2]: Lab_02
+[l3]: Lab_03
+[l4]: Lab_04
+[l5]: Lab_05
+[l7]: Lab_07
+[l8]: Lab_08
+[l9]: Lab_09
+[l10]: Lab_10
 
 
