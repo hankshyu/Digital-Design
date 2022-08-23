@@ -1,11 +1,12 @@
 # Digital_Design
 
+<img alt="GitHub License" src="https://img.shields.io/github/license/hankshyu/Digital_Design?color=orange&logo=github"> <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/hankshyu/Digital_Design?color=orange&logo=github"> <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hankshyu/Digital_Design"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/hankshyu/Digital_Design"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/hankshyu/Digital_Design"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/hankshyu/Digital_Design?logo=git&color=green"> <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/hankshyu/Digital_Design?logo=git&color=green">  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hankshyu/Digital_Design?logo=git&color=green">
 
 
-Circuit implementations on the Artix-7 FPGA Development Board
+### Circuit implementations on the Artix-7 FPGA Development Board
 
 
-### Xilinx Artix-35T FPGA:
+## Xilinx Artix-35T FPGA:
 - 33,280 logic cells in 5200 slices (each slice contains four 6-input LUTs and 8 flip-flops)
 - 1,800 Kbits of fast block RAM
 - Five clock management tiles, each with a phase-locked loop (PLL)
@@ -14,14 +15,14 @@ Circuit implementations on the Artix-7 FPGA Development Board
 - On-chip analog-to-digital converter (XADC)
 - Programmable over JTAG and Quad-SPI Flash
 
-### System Features
+## System Features
 - 256MB DDR3L with a 16-bit bus @ 667MHz
 - 16MB Quad-SPI Flash
 - UART,SPI,I2C,10/100 Ethernet
 - 4 Switches, 4 Buttons, 8 LEDs(4 RGB)
 - USB-JTAG Programming circuitry (USB Micro cable 
 
-### Self Added Features
+## Self Added Features
 - Video Graphics Array(VGA) connection
 - 1602 Character LCD Display
 - SD Card connection
